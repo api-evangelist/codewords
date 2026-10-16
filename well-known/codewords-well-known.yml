@@ -1,0 +1,354 @@
+generated: '2026-10-16'
+method: probed
+generator: harvest-well-known.py
+source: Live GET of the named /.well-known/ path list on every host the record knows; every row is a request that
+  was issued.
+summary:
+  hosts_probed: 8
+  paths_probed: 88
+  documents_served: 8
+hosts:
+- host: runtime.codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    standard: RFC 8414
+    note: '200 but issued by codewords.agemo.ai: the hosting platform''s document, not the provider''s'
+    platform_issuer: codewords.agemo.ai
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    standard: RFC 9728
+    content_type: application/json
+    file: codewords-runtime-oauth-protected-resource.json
+    platform_authorization_servers:
+    - codewords.agemo.ai
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: www.codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    standard: RFC 8414
+    note: '200 but issued by codewords.agemo.ai: the hosting platform''s document, not the provider''s'
+    platform_issuer: codewords.agemo.ai
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    standard: RFC 9728
+    content_type: application/json
+    file: codewords-oauth-protected-resource.json
+    platform_authorization_servers:
+    - codewords.agemo.ai
+  - path: /.well-known/api-catalog
+    status: 200
+    standard: RFC 9727
+    content_type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
+    file: codewords-api-catalog.json
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: docs.codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 200
+    standard: MCP server card
+    content_type: application/mcp-server-card+json; charset=utf-8
+    file: codewords-docs-mcp-server-card.json
+- host: api.codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 403
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 403
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 403
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 403
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 403
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 403
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 403
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 403
+    standard: MCP server card
+- host: app.codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    standard: RFC 8414
+    note: '200 but issued by codewords.agemo.ai: the hosting platform''s document, not the provider''s'
+    platform_issuer: codewords.agemo.ai
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    standard: RFC 9728
+    content_type: application/json
+    file: codewords-app-oauth-protected-resource.json
+    platform_authorization_servers:
+    - codewords.agemo.ai
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: chatgpt.com
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    standard: RFC 9116
+    content_type: text/plain; charset=UTF-8
+    file: codewords-chatgpt-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: claude.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    standard: RFC 8414
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    standard: RFC 9728
+  - path: /.well-known/api-catalog
+    status: 404
+    standard: RFC 9727
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card
+- host: codewords.ai
+  control:
+    path: /.well-known/apis-io-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 0
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    standard: RFC 9116
+  - path: /.well-known/openid-configuration
+    status: 404
+    standard: OpenID Connect Discovery 1.0
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    standard: RFC 8414
+    note: '200 but issued by codewords.agemo.ai: the hosting platform''s document, not the provider''s'
+    platform_issuer: codewords.agemo.ai
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    standard: RFC 9728
+    content_type: application/json
+    file: codewords-codewords-oauth-protected-resource.json
+    platform_authorization_servers:
+    - codewords.agemo.ai
+  - path: /.well-known/api-catalog
+    status: 200
+    standard: RFC 9727
+    content_type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
+    file: codewords-codewords-api-catalog.json
+  - path: /.well-known/apis.json
+    status: 404
+    standard: APIs.json
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    standard: OpenAI plugin manifest
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    standard: AAuth
+  - path: /.well-known/ucp.json
+    status: 404
+    standard: UCP
+  - path: /.well-known/acp.json
+    status: 404
+    standard: ACP
+  - path: /.well-known/mcp/server-card.json
+    status: 404
+    standard: MCP server card

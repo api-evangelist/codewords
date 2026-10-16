@@ -1,0 +1,1 @@
+{"resource":"https://runtime.codewords.ai/run/devx_mcp/mcp/","authorization_servers":["https://codewords.agemo.ai"],"bearer_methods_supported":["header"],"scopes_supported":["api:read","api:write"],"resource_documentation":"https://docs.codewords.ai/features/chatgpt-connector.md"}

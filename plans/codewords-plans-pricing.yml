@@ -1,0 +1,27 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.codewords.ai/pricing
+sources:
+- https://www.codewords.ai/pricing
+- https://docs.codewords.ai/pricing
+name: Agemo pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  description: Perfect for getting started. Includes starter credits 100 workflow runs/month, unlimited projects, unlimited codewords.run domains,
+    full code ownership.
+- name: Pro
+  price_text: $39/month
+  price: 39
+  description: Most popular. Includes 60 credits monthly (1.5x bonus), 2,500 workflow runs/month, custom domains, no CodeWords branding, WhatsApp
+    integration, 20 DMs per day, 5 linked groups.
+- name: Business
+  price_text: $100/month
+  price: 100
+  description: For power users. Includes 200 credits monthly (2x bonus), unlimited workflow runs, priority support, full access to Business Templates,
+    white‑labeling, 50 DMs per day, 10 linked groups.
+docs: https://www.codewords.ai/pricing

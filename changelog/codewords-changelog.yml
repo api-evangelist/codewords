@@ -1,0 +1,84 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.codewords.ai/changelog
+sources:
+- https://www.codewords.ai/changelog
+entries:
+- breaking: false
+  highlights:
+  - Build automations without leaving Claude or ChatGPT.
+  - Describe what you want automated in the chat you're already using.
+  - CodeWords builds it, connects your tools, and deploys it.
+  - 'Only pay for runs: planning and building in the chat don''t use credits.'
+  date: '2026-09-14'
+- breaking: false
+  highlights:
+  - Chat now opens full width until there's a graph, code, or preview to show alongside it.
+  - Message actions like copy and edit now sit neatly below your messages instead of overlapping them.
+  - Chat reconnects reliably even after a long idle period.
+  - Cody now remembers answers you've already given earlier in a conversation, instead of asking again.
+  date: '2026-09-01'
+- breaking: false
+  highlights:
+  - CodeWords UI Volume 2 is rolling out in beta to some users, bringing a simpler way to build, fix, and publish what you make in chat.
+  - 'Simple version history: Every version is saved automatically — pick any one and make it current with a click.'
+  - 'Clearer errors: A Fix it prompt shows you exactly what''s wrong, no console required.'
+  - 'Always current on mobile: Your preview switches over automatically the moment a new build finishes.'
+  date: '2026-08-26'
+- breaking: false
+  highlights:
+  - Chat now recovers automatically if it gets stuck, instead of needing a page refresh.
+  - Fixed a bug where Gemini-family models could lose their full tool list, and long silent responses no longer get cut off early.
+  - WhatsApp messages from Mexican phone numbers are now delivered reliably.
+  - Cody no longer uses emojis in its replies.
+  date: '2026-08-24'
+- breaking: false
+  highlights:
+  - Give us feedback, right from the account menu.
+  - There's now a quick way to tell us what's working and what isn't, right from the account menu.
+  date: '2026-08-21'
+- breaking: false
+  highlights:
+  - Your scheduled workflows and triggers now live together on a single Scheduled page.
+  - 'Everything together: Schedules and triggers now show up in one list, and old links to either page bring you straight here.'
+  - 'Instant deletes: Removing a schedule or trigger now feels instant, with no lag.'
+  date: '2026-08-17'
+- breaking: false
+  highlights:
+  - Canceling your plan is now clearly labeled — paid users see a direct Cancel plan option instead of only Downgrade.
+  - Switching plans now tells you exactly where you're headed, like Switch to Business.
+  - If a payment fails, you can now update your card or cancel a still-retrying subscription right from Wallet and Plans.
+  date: '2026-08-17'
+- breaking: false
+  highlights:
+  - Chat sessions for long-running builds now stay open for 30 minutes, up from 12.
+  - Your secrets no longer disappear from a project when you switch between chats.
+  - Login is more reliable, with fewer authentication hiccups when navigating around the app.
+  date: '2026-08-07'
+- breaking: false
+  highlights:
+  - Setting up an integration no longer means leaving your conversation with Cody.
+  - Open the Connect Apps menu right from the message bar and link a tool in a click.
+  - 'Smart defaults: Gmail is ready as a starting connection, so common tasks work right away.'
+  date: '2026-08-05'
+- breaking: false
+  highlights:
+  - We've refreshed how you build and manage your WhatsApp agents, so everything feels clearer from your very first click.
+  - 'A cleaner builder: Build your agent on a clean, visual board, with clearer steps for access and confirmation along the way.'
+  - 'A tidier Agents page: Find your agents faster with search and filters, and see at a glance which are Live and which are Paused.'
+  date: '2026-07-24'
+- breaking: false
+  highlights:
+  - Billing settings have a new, clearer home.
+  - Wallet and Plans are now two separate tabs, so it's easy to find exactly what you need.
+  - We've also added usage alerts, so you'll know before you reach your monthly limit.
+  date: '2026-07-24'
+- breaking: false
+  highlights:
+  - 'New template: a WhatsApp receptionist for hotels that answers guests from your real hotel facts, captures booking enquiries, and sends you
+    a summary.'
+  - Your homepage has a refreshed look, with a cleaner welcome and simpler navigation.
+  date: '2026-07-24'
+note: Versioning scheme and current version are not listed on the page; fields are set to null per guidelines.
+docs: https://www.codewords.ai/changelog

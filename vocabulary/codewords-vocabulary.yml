@@ -1,0 +1,30 @@
+generated: '2026-10-16'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/codewords-openapi.json
+vocabulary:
+  name: Agemo Domain Vocabulary
+  description: 'Terms declared by Agemo''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-16'
+  terms:
+  - term: Workflows
+    definition: Run deployed CodeWords services and fetch results.
+    tags:
+    - Resource Group
+    source: openapi/codewords-openapi.json
+  - term: Files
+    definition: Upload files for workflow inputs.
+    tags:
+    - Resource Group
+    source: openapi/codewords-openapi.json
+  - term: Webhooks
+    definition: Inbound POST triggers generated per workflow.
+    tags:
+    - Resource Group
+    source: openapi/codewords-openapi.json
+  - term: MCP
+    definition: Model Context Protocol endpoint for coding agents.
+    tags:
+    - Resource Group
+    source: openapi/codewords-openapi.json

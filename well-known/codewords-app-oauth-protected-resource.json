@@ -1,0 +1,1 @@
+{"resource":"https://runtime.codewords.ai/run/devx_mcp","authorization_servers":["https://codewords.agemo.ai"],"scopes_supported":["api:read","api:write"],"bearer_methods_supported":["header"]}

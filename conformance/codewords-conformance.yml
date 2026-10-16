@@ -1,0 +1,25 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.codewords.ai/security
+sources:
+- https://docs.codewords.ai/security
+- https://www.codewords.ai/security
+- https://www.codewords.ai/privacy-policy
+standards:
+- id: soc2
+  conforms: true
+  evidence: We're currently in the process of getting our SOC 2 Type II compliance.
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes declared
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://docs.codewords.ai/security

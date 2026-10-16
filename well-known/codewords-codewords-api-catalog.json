@@ -1,0 +1,28 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.codewords.ai/.well-known/api-catalog",
+      "item": [
+        {
+          "href": "https://runtime.codewords.ai",
+          "title": "CodeWords Runtime API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://runtime.codewords.ai",
+      "service-desc": [
+        {
+          "href": "https://www.codewords.ai/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.codewords.ai/automations/calling-codewords-workflows.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}

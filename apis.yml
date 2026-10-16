@@ -1,23 +1,105 @@
 aid: codewords
+
 name: Agemo
-description: 'Agemo is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.codewords.ai/assets/cdn.prod.website-files.com/6946a9915525f9a896b45f44/69e8f4a48b849d5aa136d146_thumbnail-preview-2.png
+
+description: Agemo, operating under the brand CodeWords, provides AI‑driven workflow automation that lets users describe processes in natural
+  language and instantly generate live WhatsApp and other tool integrations. The platform offers a visual UI, templates, and a marketplace of
+  agents powered by Claude, ChatGPT, or Cursor, targeting businesses seeking to streamline repetitive tasks without building code. It emphasizes
+  ease of use, rapid deployment, and extensibility through a growing ecosystem of connectors and custom agents.
+
 url: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-16 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-16'
+
 modified: '2026-10-16'
+
 tags:
-- Company
-apis: []
+- AI
+- Automation
+- Workflow
+- NoCode
+- SaaS
+- Productivity
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: AgenticAccess
+  url: agentic-access/codewords-agentic-access.yml
+- type: Plans
+  url: plans/codewords-plans-pricing.yml
+- type: Spectral
+  url: rules/codewords-rules.yml
+- type: Vocabulary
+  url: vocabulary/codewords-vocabulary.yml
+- type: ChangeLog
+  url: changelog/codewords-changelog.yml
+- type: ErrorCatalog
+  url: errors/codewords-problem-types.yml
+- type: Conformance
+  url: conformance/codewords-conformance.yml
+- type: LLMsTxt
+  url: llms/codewords-llms.txt
+- type: SecurityTxt
+  url: well-known/codewords-chatgpt-security.txt
+- type: WellKnown
+  url: well-known/codewords-well-known.yml
+- type: Hosts
+  url: hosts/codewords-hosts.yml
+- type: Vendors
+  url: vendors/codewords-vendors.yml
+- type: Security
+  url: https://www.codewords.ai/security
+- type: ChangeLog
+  url: https://www.codewords.ai/changelog
+- type: APIReference
+  url: https://www.codewords.ai/developers
+- type: DomainSecurity
+  url: security/codewords-domain-security.yml
 - type: Website
-  url: https://codewords.ai/
+  url: https://www.codewords.ai/
+- type: Documentation
+  url: https://docs.codewords.ai/
+- type: Blog
+  url: https://www.codewords.ai/blog
+- type: Pricing
+  url: https://www.codewords.ai/pricing
+- type: TermsOfService
+  url: https://www.codewords.ai/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.codewords.ai/privacy-policy
+- type: Support
+  url: https://www.codewords.ai/support
+
+apis:
+- aid: codewords:codewords-workflows-api
+  name: Agemo Workflows API
+  description: Run deployed CodeWords services and fetch results.
+  humanURL: https://www.codewords.ai/developers
+  baseURL: https://runtime.codewords.ai
+  tags:
+  - Workflows
+  properties:
+  - type: OpenAPI
+    url: openapi/codewords-workflows-api-openapi.yml
+x-enrichment:
+  date: '2026-10-16'
+  status: enriched
+  artifacts_added: 23
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

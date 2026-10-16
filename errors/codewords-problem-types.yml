@@ -1,0 +1,48 @@
+generated: '2026-10-16'
+method: derived
+generator: derive-problem-types.py
+source:
+- openapi/codewords-openapi.json
+format: custom
+envelope:
+  media_type: application/json
+  schema: null
+coverage:
+  operations: 3
+  statuses_declared: 5
+problems:
+- status: 401
+  title: Unauthorized
+  description: Missing or invalid credentials.
+  operations: 3
+  media_types:
+  - application/json
+  schema: null
+- status: 404
+  title: Not Found
+  description: Unknown serviceId.
+  operations: 3
+  media_types:
+  - application/json
+  schema: null
+- status: 408
+  title: Request Timeout
+  description: Run is still in progress. Retry later.
+  operations: 1
+  media_types:
+  - application/json
+  schema: null
+- status: 429
+  title: Too Many Requests
+  description: Rate limited.
+  operations: 1
+  media_types:
+  - application/json
+  schema: null
+- status: 504
+  title: Gateway Timeout
+  description: Synchronous execution exceeded the runtime timeout. Use runWorkflowAsync.
+  operations: 1
+  media_types:
+  - application/json
+  schema: null

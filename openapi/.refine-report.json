@@ -1,0 +1,19 @@
+{
+  "provider": "codewords",
+  "sources": [
+    "codewords-openapi.json"
+  ],
+  "outputs": [
+    "codewords-workflows-api-openapi.yml"
+  ],
+  "archived": [
+    "archived openapi/codewords-openapi.json"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "codewords-openapi.json: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+1 apis, 1 total)"
+  ],
+  "skipped": []
+}
