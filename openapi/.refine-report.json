@@ -1,19 +1,20 @@
 {
   "provider": "codewords",
   "sources": [
-    "codewords-openapi.json"
+    "_original/codewords-openapi.json"
   ],
   "outputs": [
     "codewords-workflows-api-openapi.yml"
   ],
-  "archived": [
-    "archived openapi/codewords-openapi.json"
-  ],
+  "archived": [],
   "errors": [],
   "warnings": [],
   "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
     "codewords-openapi.json: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
-    "apis.yml register: written (+1 apis, 1 total)"
+    "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "codewords-workflows-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
