@@ -25,3 +25,29 @@ plans:
   description: For power users. Includes 200 credits monthly (2x bonus), unlimited workflow runs, priority support, full access to Business Templates,
     white‑labeling, 50 DMs per day, 10 linked groups.
 docs: https://www.codewords.ai/pricing
+x-canonical:
+  generated: '2026-10-23'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Business
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
