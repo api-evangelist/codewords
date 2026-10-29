@@ -64,5 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agemo is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://codewords.ai/
+Agemo, operating under the brand CodeWords, provides AI‑driven workflow automation that lets users describe processes in natural language and instantly generate live WhatsApp and other tool integrations. The platform offers a visual UI, templates, and a marketplace of agents powered by Claude, ChatGPT, or Cursor, targeting businesses seeking to streamline repetitive tasks without building code. It emphasizes ease of use, rapid deployment, and extensibility through a growing ecosystem of connectors and custom agents.
+
+**Areas:** Artificial Intelligence · Automation · Workflows · No-Code · Software-as-a-Service · Productivity
+
+## Agemo on APIs.io
+
+Everything profiled for Agemo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/codewords/](https://apis.io/providers/codewords/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Agemo Workflows API](https://apis.io/apis/codewords/codewords-workflows-api/) — Run deployed CodeWords services and fetch results.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Codewords Agentic Access](https://apis.io/agentic-access/codewords/codewords-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agemo API Rules](https://apis.io/rules/codewords/codewords-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Codewords Domain Security](https://apis.io/security/codewords/codewords-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Codewords Plans Pricing](https://apis.io/plans/codewords/codewords-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.codewords.ai/)
+- [Documentation](https://docs.codewords.ai/)
+- [API reference](https://www.codewords.ai/developers)
+- [Pricing](https://www.codewords.ai/pricing)
+- [Support](https://www.codewords.ai/support)
+- [Changelog](https://www.codewords.ai/changelog)
+- [Blog](https://www.codewords.ai/blog)
+- [Security](https://www.codewords.ai/security)
+- [Terms of service](https://www.codewords.ai/terms-conditions)
+- [Privacy policy](https://www.codewords.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 49.0 |
+| Contract governance | 35.6 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 63.2 |
+
+**Agent readiness 23.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/codewords/](https://apis.io/providers/codewords/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agemo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/codewords/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
